@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.8.0](https://github.com/open-meteo/open-meteo/compare/1.7.0...1.8.0) (2026-10-21)
+
+
+### Features
+
+* aicon downloader ([#1769](https://github.com/open-meteo/open-meteo/issues/1769)) ([17f6624](https://github.com/open-meteo/open-meteo/commit/17f6624d97246e2c6bb6219241ee3e130c8ee3c8))
+* integrate ICON-D2 RUC ([#2186](https://github.com/open-meteo/open-meteo/issues/2186)) ([a48a37e](https://github.com/open-meteo/open-meteo/commit/a48a37e47d39d02215eff3541fb56d1d437ff64b))
+* NOAA NCEP RRFS model integration ([#2133](https://github.com/open-meteo/open-meteo/issues/2133)) ([f3cdf74](https://github.com/open-meteo/open-meteo/commit/f3cdf746bee49044a3ec9871237057eeb282b85d))
+
+
+### Bug Fixes
+
+* best match should not depend on EPS grid artifacts ([#2238](https://github.com/open-meteo/open-meteo/issues/2238)) ([c81f031](https://github.com/open-meteo/open-meteo/commit/c81f031499821299ffaf1a570bddf9008041000a))
+* ecmwf ensemble downloader improvements ([#2210](https://github.com/open-meteo/open-meteo/issues/2210)) ([dcff54d](https://github.com/open-meteo/open-meteo/commit/dcff54d45b17649bd1485da8362667af1313cf45))
+* Improve UKMO, NBM and HRRR solar radiation instant to backwards approximation ([#2240](https://github.com/open-meteo/open-meteo/issues/2240)) ([6922cb0](https://github.com/open-meteo/open-meteo/commit/6922cb0671bd9bf73a87d6472d8aac12be505b3e))
+* metno use local files via curl.downloadNetCdf ([#2242](https://github.com/open-meteo/open-meteo/issues/2242)) ([8ccda52](https://github.com/open-meteo/open-meteo/commit/8ccda52e9c4e612c8ae521a749e17885aaaa0fcd))
+* **performance:** Use OmFileSystemManager directories to speed up chunk and yearly files discovery ([#2234](https://github.com/open-meteo/open-meteo/issues/2234)) ([7afe0fd](https://github.com/open-meteo/open-meteo/commit/7afe0fdbab87fe7948518a17346af9df907680b4))
+* Prefetch can stop after the first valid prefetch ([#2232](https://github.com/open-meteo/open-meteo/issues/2232)) ([6d80d13](https://github.com/open-meteo/open-meteo/commit/6d80d13a1d4d37d0fc669701f9059812adf50509))
+* remove variable filtering in static/meta.json update ([#2241](https://github.com/open-meteo/open-meteo/issues/2241)) ([7a0724b](https://github.com/open-meteo/open-meteo/commit/7a0724bead7f7dffb601d7429f4a82f65932fd4f))
+* report the requested value in the forecast_days range error ([#2228](https://github.com/open-meteo/open-meteo/issues/2228)) ([c817186](https://github.com/open-meteo/open-meteo/commit/c817186004a55a77d9134235c5bf6c09ac265ef8))
+* update placeholder sdk values ([#2237](https://github.com/open-meteo/open-meteo/issues/2237)) ([5f11eaf](https://github.com/open-meteo/open-meteo/commit/5f11eafbf0e4917618870f562bd35f3a40fa240e))
+* Update SDK for latest model identifier ([01ceed5](https://github.com/open-meteo/open-meteo/commit/01ceed5b028fb6ac19794c3310aed5a4f7aa6d4a))
+
 ## [1.7.0](https://github.com/open-meteo/open-meteo/compare/1.6.0...1.7.0) (2026-10-16)
 
 
